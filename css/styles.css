@@ -1,3 +1,11 @@
+:root {
+    /* Колір тексту */
+    /* Колір фону */
+    /* Шрифти */
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    /* Інше */
+}
 ul {
     list-style: none;
 }
