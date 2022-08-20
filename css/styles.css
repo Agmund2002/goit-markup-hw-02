@@ -1,10 +1,16 @@
 :root {
     /* Колір тексту */
+    --main-txt-color: #212121;
+    --secondary-txt-color: #757575;
     /* Колір фону */
+    --main-background-color: #fff;
+    --secondary-background-color: #2F303A;
+    --projects-color: #eee;
     /* Шрифти */
     --main-font: Roboto, sans-serif;
     --secondary-font: Raleway, sans-serif;
     /* Інше */
+    --accent-color: #2196F3;
 }
 .markers {
     list-style: none;
