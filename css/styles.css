@@ -6,7 +6,7 @@
     --secondary-font: Raleway, sans-serif;
     /* Інше */
 }
-ul {
+.markers {
     list-style: none;
 }
 .visually-hidden {
