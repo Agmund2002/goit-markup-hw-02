@@ -12,6 +12,11 @@
     /* Інше */
     --accent-color: #2196F3;
 }
+body {
+    font-family: var(--main-font);
+    color: var(--main-txt-color);
+    background-color: var(--main-background-color);
+}
 .markers {
     list-style: none;
 }
@@ -28,3 +33,62 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.header {}
+
+.logo {}
+
+.color-logo {
+    
+}
+
+.nav {}
+
+.nav-list {}
+
+.markers {}
+
+.nav-list-item {}
+
+.contacts-list {}
+
+.contacts-list-item {}
+
+.main {}
+
+.order {}
+
+.order-title {}
+
+.order-btn {}
+
+.features {}
+
+.visually-hidden {}
+
+.features-list {}
+
+.features-list-item {}
+
+.services {}
+
+.services-title {}
+
+.services-list {}
+
+.services-list-item {}
+
+.team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-list-item {}
+
+.footer {}
+
+.address {}
+
+.address-list {}
+
+.address-list-item {}
