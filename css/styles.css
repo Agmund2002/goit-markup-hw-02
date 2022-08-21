@@ -1,94 +1,149 @@
 :root {
-    /* Колір тексту */
-    --main-txt-color: #212121;
-    --secondary-txt-color: #757575;
-    /* Колір фону */
-    --main-background-color: #fff;
-    --secondary-background-color: #2F303A;
-    --projects-color: #eee;
-    /* Шрифти */
-    --main-font: Roboto, sans-serif;
-    --secondary-font: Raleway, sans-serif;
-    /* Інше */
-    --accent-color: #2196F3;
+  /* Колір тексту */
+  --main-txt-color: #212121;
+  --secondary-txt-color: #757575;
+  --secondary-logo-color: #000;
+  /* Колір фону */
+  --main-background-color: #fff;
+  --secondary-background-color: #2f303a;
+  --projects-color: #eee;
+  /* Шрифти */
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  /* Інше */
+  --accent-color: #2196f3;
 }
 body {
-    font-family: var(--main-font);
-    color: var(--main-txt-color);
-    background-color: var(--main-background-color);
+  font-family: var(--main-font);
+  color: var(--main-txt-color);
+  background-color: var(--main-background-color);
 }
 .markers {
-    list-style: none;
+  list-style: none;
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-.header {}
+.header {
+}
 
-.logo {}
+.logo {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--secondary-logo-color);
+}
 
 .color-logo {
-    
+  color: var(--accent-color);
 }
 
-.nav {}
+.nav {
+}
 
-.nav-list {}
+.nav-list {
+}
 
-.markers {}
+.nav-list-item > a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: currentColor;
+}
 
-.nav-list-item {}
+.nav-list-item > a:hover,
+.nav-list-item > a:focus {
+  color: var(--accent-color);
+}
 
-.contacts-list {}
+.contacts-list {
+}
 
-.contacts-list-item {}
+.contacts-list-item > a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-color);
+}
 
-.main {}
+.contacts-list-item > a:hover,
+.contacts-list-item > a:focus {
+    color: var(--accent-color);
+}
 
-.order {}
+.main {
+}
 
-.order-title {}
+.order {
+}
 
-.order-btn {}
+.order-title {
+}
 
-.features {}
+.order-btn {
+}
 
-.visually-hidden {}
+.features {
+}
 
-.features-list {}
+.visually-hidden {
+}
 
-.features-list-item {}
+.features-list {
+}
 
-.services {}
+.features-list-item {
+}
 
-.services-title {}
+.services {
+}
 
-.services-list {}
+.services-title {
+}
 
-.services-list-item {}
+.services-list {
+}
 
-.team {}
+.services-list-item {
+}
 
-.team-title {}
+.team {
+}
 
-.team-list {}
+.team-title {
+}
 
-.team-list-item {}
+.team-list {
+}
 
-.footer {}
+.team-list-item {
+}
 
-.address {}
+.footer {
+}
 
-.address-list {}
+.address {
+}
 
-.address-list-item {}
+.address-list {
+}
+
+.address-list-item {
+}
