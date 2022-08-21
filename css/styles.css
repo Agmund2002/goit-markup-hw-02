@@ -3,7 +3,7 @@
   --main-txt-color: #212121;
   --secondary-txt-color: #757575;
   --secondary-logo-color: #000;
-  --footer-secondary-color: #fff;
+  --secondary-title-color: #fff;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   /* Колір фону */
   --main-background-color: #fff;
@@ -98,12 +98,32 @@ body {
 }
 
 .order {
+  background-color: var(--secondary-background-color);
 }
 
 .order-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
 }
 
 .order-btn {
+  font-family: var(--main-txt-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
 }
 
 .features {
@@ -147,7 +167,7 @@ body {
 }
 
 .foot {
-  color: var(--footer-secondary-color);
+  color: var(--secondary-title-color);
 }
 
 .address {
@@ -166,7 +186,7 @@ body {
 }
 
 .location > a {
-  color: var(--footer-secondary-color);
+  color: var(--secondary-title-color);
 }
 
 .address-list-item > a:hover,
