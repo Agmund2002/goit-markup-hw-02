@@ -36,8 +36,6 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.header {
-}
 
 .logo {
   text-decoration: none;
@@ -51,12 +49,6 @@ body {
 
 .color-logo {
   color: var(--accent-color);
-}
-
-.nav {
-}
-
-.nav-list {
 }
 
 .current-tab {
@@ -77,9 +69,6 @@ body {
   color: var(--accent-color);
 }
 
-.contacts-list {
-}
-
 .contacts-list-item > a {
   text-decoration: none;
   font-weight: 500;
@@ -89,12 +78,11 @@ body {
   color: var(--secondary-txt-color);
 }
 
+/* стилізація файлу index.html */
+
 .contacts-list-item > a:hover,
 .contacts-list-item > a:focus {
   color: var(--accent-color);
-}
-
-.main {
 }
 
 .order {
@@ -112,7 +100,7 @@ body {
 }
 
 .order-btn {
-  font-family: var(--main-txt-color);
+  font-family: var(--main-font);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -124,15 +112,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--secondary-title-color);
-}
-
-.features {
-}
-
-.visually-hidden {
-}
-
-.features-list {
+  cursor: pointer;
+  border: 0;
 }
 
 .features-list-item > h3 {
@@ -149,20 +130,11 @@ body {
   color: var(--secondary-txt-color);
 }
 
-.services {
-}
-
 .services-title {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.services-list {
-}
-
-.services-list-item {
 }
 
 .team {
@@ -174,9 +146,6 @@ body {
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.team-list {
 }
 
 .team-list-item {
@@ -203,18 +172,58 @@ body {
   color: var(--secondary-txt-color);
 }
 
+/* завершення стилізації файлу index.html */
+
+/* стилізація файлу portfolio */
+
+.projects-nav-btn > button {
+  font-family: var(--main-font);
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 0;
+}
+
+.projects-nav-btn > button:hover,
+.projects-nav-btn > button:focus {
+  color: var(--secondary-title-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.projects-list-item {
+  border: 1px solid #eeeeee;
+  width: 370px;
+}
+
+.projects-list-item > h2 {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.projects-list-item > p {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-color);
+}
+
+/* завершення стилізації файлу portfolio */
+
 .footer {
   background-color: var(--main-background-color);
 }
 
 .foot {
   color: var(--secondary-title-color);
-}
-
-.address {
-}
-
-.address-list {
 }
 
 .address-list-item > a {
