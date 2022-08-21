@@ -135,7 +135,18 @@ body {
 .features-list {
 }
 
-.features-list-item {
+.features-list-item > h3 {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-list-item > p {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-color);
 }
 
 .services {
