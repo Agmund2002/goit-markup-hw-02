@@ -15,10 +15,12 @@
   --secondary-font: Raleway, sans-serif;
   /* Інше */
   --accent-color: #2196f3;
+  --btn-accent-color: #188CE8;
 }
 body {
   font-family: var(--main-font);
   color: var(--main-txt-color);
+  letter-spacing: 0.03em;
 }
 .markers {
   list-style: none;
@@ -43,7 +45,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
   color: var(--secondary-logo-color);
 }
 
@@ -116,17 +117,20 @@ body {
   border: 0;
 }
 
+.order-btn:hover,
+.order-btn:focus {
+  border-color: var(--btn-accent-color);
+}
+
 .features-list-item > h3 {
   font-size: 14px;
   line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .features-list-item > p {
   font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: var(--secondary-txt-color);
 }
 
@@ -134,7 +138,6 @@ body {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team {
@@ -145,7 +148,6 @@ body {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-list-item {
@@ -161,14 +163,12 @@ body {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-list-item > p {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-txt-color);
 }
 
@@ -184,7 +184,6 @@ body {
   font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
   border: 0;
 }
 
@@ -203,16 +202,20 @@ body {
   width: 370px;
 }
 
-.projects-list-item > h2 {
+.projects-link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.projects-link > h2 {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
 
-.projects-list-item > p {
+.projects-link > p {
   font-size: 16px;
   line-height: calc(30 / 16);
-  letter-spacing: 0.03em;
   color: var(--secondary-txt-color);
 }
 
@@ -231,7 +234,6 @@ body {
   text-decoration: none;
   font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: var(--footer-contacts-color);
 }
 
