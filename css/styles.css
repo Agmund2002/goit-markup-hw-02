@@ -119,7 +119,7 @@ body {
 
 .order-btn:hover,
 .order-btn:focus {
-  border-color: var(--btn-accent-color);
+  background-color: var(--btn-accent-color);
 }
 
 .features-list-item > h3 {
